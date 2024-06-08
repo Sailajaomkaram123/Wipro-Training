@@ -1,0 +1,50 @@
+import java.util.*;
+class morf
+{
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter your gender (M/F):");
+		String a=sc.nextLine();
+		System.out.println("Enter your age from (1 to 100): ");
+		int age=sc.nextInt();
+		if(a.equalsIgnoreCase("female"))
+		{
+			if(age<58)
+			{
+			System.out.println("The percentage of interest is 8.2%");
+			}
+			else
+			{
+			if(age>58)
+			{
+				System.out.println("The percentage of interest is 9.2%");
+
+			}
+			}
+		}
+		if(a.equalsIgnoreCase("male"))
+		{
+			if(age<58)
+			{
+			System.out.println("The percentage of interest 8.4%");
+			}
+		
+			else
+			{
+			if(age>58)
+			{
+				System.out.println("The percentage of interest 10.5%");
+			}
+			}
+		}
+
+	}
+}
+
+OUTPUT:
+Enter your gender (M/F):
+male
+Enter your age from (1 to 100):
+30
+The percentage of interest 8.4%
