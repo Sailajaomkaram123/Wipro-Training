@@ -1,0 +1,33 @@
+PROGRAM B:
+import java.util.*;
+class torf
+{
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the first num:");
+		int num1=sc.nextInt();
+		System.out.println("Enter the second num:");
+		int num2=sc.nextInt();
+
+		int lastdigit1=num1%10;
+		int lastdigit2=num2%10;
+
+		if(lastdigit1==lastdigit2)
+		{
+			System.out.println("It is True");
+		}
+		else
+		{
+			System.out.println("It is False");
+		}
+	}
+}
+
+OUTPUT:
+Enter the first num:
+44
+Enter the second num:
+24
+It is True
+
