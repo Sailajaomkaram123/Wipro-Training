@@ -1,0 +1,27 @@
+PROGRAM A:
+import java.util.*;
+class posneg
+{
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a num:");
+		double number=sc.nextDouble();
+		if(number>0)
+		{
+			System.out.println("It is a positive num");
+		}
+		else
+		{
+			System.out.println("Its is negative num");
+		}
+	}
+}
+OUTPUT:
+Enter a num:
+-5
+Its is negative num
+Enter a num:
+4
+Its is positive num
+
