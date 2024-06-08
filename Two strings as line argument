@@ -1,0 +1,25 @@
+PROGRAM:1
+import java.util.*;
+class prm1c
+{
+	public static void main(String args[])
+	{
+		System.out.println(args[0]+ " technologies "+args[1]);
+	}
+}
+
+OUTPUT:
+Wipro technologies Bangalore
+
+PROGRAM:2
+import java.util.*;
+class prm1c
+{
+	public static void main(String args[])
+	{
+		System.out.println(args[0]+ " technologies "+args[1]);
+	}
+}
+
+OUTPUT:
+ABC technologies Mumbai
