@@ -1,0 +1,27 @@
+import java.util.*;
+class alporder
+{
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the first character:");
+		char a=sc.next().charAt(0);
+		System.out.println("Enetr the second character:");
+		char b=sc.next().charAt(0);
+		if(a<b)
+		{
+			System.out.println(a+","+b);
+		}
+		else
+		{
+			System.out.println(b+","+a);
+		}
+	}
+}
+
+OUTPUT:
+Enter the first character:
+z
+Enetr the second character:
+x
+x,z
