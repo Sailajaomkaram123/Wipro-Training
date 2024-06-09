@@ -1,0 +1,28 @@
+import java.util.*;
+class adsc
+{
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the character:");
+		char a=sc.next().charAt(0);
+		if(a>='a' && a<='z' || a>='A' && a<='Z')
+		{
+			System.out.println(a+"is alphabet");
+		}
+		else if(a>100 && a<100)
+		{
+			System.out.println(a+" is digit");
+		}
+		else
+		{
+			System.out.println(a+ "is a special character");
+		}
+	}
+
+}
+
+OUTPUT;
+Enter the character:
+&
+&is a special character
